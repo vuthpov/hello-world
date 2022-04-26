@@ -9,6 +9,7 @@ const load = async () => {
   await Promise.all(
     pluginsToLoad.map(async (item) => {
       console.log(`installing ${item.registry}`);
+      manager.install(item.registry);
     })
   );
 
