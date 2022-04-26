@@ -1,9 +1,9 @@
 import Integratee from "../../interface/integratee"
 
 const dummyIntegratee : Integratee = {
-  name: 'Dummy-integratee',
+  name: 'moment',
   route: '/',
-  registry: '@vutpov/dummy-integratee'
+  registry: 'moment'
 }
 
 export default dummyIntegratee
